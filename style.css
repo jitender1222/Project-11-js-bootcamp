@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+}
+nav img{
+    width:60px;
+    height:40px;
+    position: relative;
+    top: 50px;
+    left:5%;
+}
+
+.list{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+.list-items{
+    list-style: none;
+    padding: 20px;
+}
+.list-items:nth-child(1){
+    color: black;
+    font-weight: bolder;
+}
+nav button{
+    position: absolute;
+    right:10%;
+    top:5%;
+    padding: 10px;
+    border: 1px solid lightblue;
+    background-color: white;
+    color: rgb(15, 152, 237);
+    border-radius: 8px;
+}
+
+.section-1{
+    display: flex;
+}
+
+.right-section-1 img{
+    width:500px;
+}
+
+.left-section-1{
+    width: 50%;
+    position: relative;
+    top:120px;
+    left:5%;
+}
+.left-section-1 h2{
+    font-size:70px ;
+}
+.left-section-1 p{
+    margin-top: 15px;
+    font-size: 22px;
+    line-height:30px;
+}
+.right-section-1{
+    width: 50%;
+    position: relative;
+    left:10%;
+    top:70px;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 15px;
+    color: white;
+    background-color:#1B98F5;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ///////////// section 2 starts  //////////////*/
+
+.section-2{
+    display: flex;
+    position: relative;
+    top: 300px;
+}
+.left-section-2 img{
+    width:400px;
+}
+.left-section-2{
+    width: 50%;
+    position: relative;
+    left: 5%;
+}
+
+.right-section-2{
+    width:40%;
+}
+.right-section-2 h2{
+    font-size: 50px;
+}
+
+.right-section-2 p{
+    font-size: 20px;
+    margin-top:25px;
+}
+
+.btn-section-2{
+    width: 120px;
+}
+
+/* //////////////////Section -3 starts */
+
+.section-3{
+    display: flex;
+    position: relative;
+    top:450px;
+    left: 5%;
+}
+.right-section-3 img{
+    width:350px;
+}
+.right-section-3{
+    width: 50%;
+    position: relative;
+    left:15%;
+}
+
+.left-section-3{
+    width:40%;
+    position: relative;
+    left:5%;
+}
+.left-section-3 h2{
+    font-size: 50px;
+}
+
+.left-section-3 p{
+    font-size: 20px;
+    margin-top:25px;
+}
+
+.btn-section-3{
+    width: 120px;
+}
+
+.section-4{
+    position: relative;
+    top: 600px;
+}
+
+.sub-section-1{
+    display: flex;
+}
+.sub-section-1 h2{
+    color: #0b3454;
+    position: relative;
+    left:5%;
+    width:35%;
+    font-size:45px;
+}
+.sub-section-1 p{
+    position: relative;
+    font-size:15px;
+    left:15%;
+    width:30%;
+    top: 10px;
+    color: lightgray;
+}
+.sub-section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5%;
+    position: relative;
+    left:5%;
+}
+
+.sub-section-2 h4{
+    margin-top: 10px;
+    color: #0b3454;
+}
+
+.sub-section-2 p{
+    font-size: 12px;
+    width:80%;
+    margin-top:10px;
+}
+
+.section-5{
+    position: relative;
+    top:700px;
+    background-color: #1B98F5;
+}
+
+.section-5 h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size:30px;
+}
+
+/* ////////////////   Cards started ////////////    */
+
+.sub-cards{
+    display: flex;
+    height:600px;
+    justify-content: center;
+    position: relative;
+    top:50px;
+}
+
+.sub-cards-1{
+    width:20%;
+    height:450px;
+    background-color: white;
+    position: relative;
+    left:-65px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border-radius:10px;
+}
+
+.sub-list-items{
+    padding:10px;
+    position: relative;
+    top:-20px;
+}
+
+.sub-cards-btn{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid lightblue;
+    color: #1B98F5;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+    top:-10%;
+}
+.sub-cards-1 span{
+    margin-left:30px;
+    font-size:25px;
+    position: relative;
+    top:-20px;
+}
+
+.sub-cards-1 p{
+    font-size: 12px;
+    color: lightgray;
+    position: relative;
+    top: -40px;
+    left:20%;
+}
+
+.sub-cards-1 h4{
+    font-size: 20px;
+}
+.sub-cards-1 .first{
+    color: lightgrey;
+    position: relative;
+    left: 0;
+    top:-15px;
+}
+
+
+/* //////////////////  Card 2 started //////////////   */
+
+
+.sub-cards-2{
+    width:20%;
+    background-color: white;
+    height: 450px;
+    position: relative;
+    left:-45px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border-radius:10px;
+}
+
+.sub-list-items{
+    padding:10px;
+    position: relative;
+    top:-20px;
+}
+
+.sub-cards-btn{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid lightblue;
+    color: #1B98F5;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+    top:-10%;
+}
+.sub-cards-2 span{
+    margin-left:30px;
+    font-size:25px;
+    position: relative;
+    top:-20px;
+}
+
+.sub-cards-2 p{
+    font-size: 12px;
+    color: lightgray;
+    position: relative;
+    top: -40px;
+    left:20%;
+}
+
+
+.sub-cards-2 h4{
+    font-size: 20px;
+}
+.sub-cards-2 .first{
+    color: lightgrey;
+    position: relative;
+    left: 0;
+    top:-15px;
+}
+
+
+
+/* //////////////////  Card-3 /////////////////           */
+
+.sub-cards-3{
+    width:20%;
+    background-color: white;
+    height: 450px;
+    position: relative;
+    left:-25px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border-radius:10px;
+}
+
+.sub-list-items{
+    padding:10px;
+    position: relative;
+    top:-20px;
+}
+
+.sub-cards-btn{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid lightblue;
+    color: #1B98F5;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+    top:-10%;
+}
+.btn-2{
+    background-color:#1B98F5;
+    color: white;
+}
+.sub-cards-3 span{
+    margin-left:30px;
+    font-size:25px;
+    position: relative;
+    top:-20px;
+}
+
+.sub-cards-3 p{
+    font-size: 10px;
+    color: lightgray;
+    position: relative;
+    top: -40px;
+    left:20%;
+}
+
+.sub-cards-3 h4{
+    font-size: 20px;
+}
+.sub-cards-3 .first{
+    color: lightgrey;
+    position: relative;
+    left: 0;
+    top:-15px;
+}
+
+.section-6{
+    position: relative;
+    top:800px;
+    background-color: rgb(255, 252, 252);
+}
+
+.heading{
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    left: 20%;
+}
+.heading h3{
+    font-size:40px;
+    position: relative;
+    top:-45px;
+}
+
+.heading p{
+    position: relative;
+    top:-35px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+    row-gap:40px;
+}
+
+.card-section{
+    background-color: white;
+    width: 60%;
+    border: 1px solid rgba(66, 66, 66, 0.178);
+    position: relative;
+    left:20%;
+    padding: 20px;
+}
+
+.footer{
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+
+.footer-img{
+    width:40px;
+    height: 40px;
+    background-color: rgb(217, 213, 213);
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.footer-last p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+/* ////////////// section -7 started //////////////////////// */
+
+.section-7{
+    position: relative;
+    top: 850px;
+    background-color: #1B98F5;
+    height:350px;
+    display: flex;
+}
+
+.left-section-7{
+    position: relative;
+    top:80px;
+    left: 10%;
+    width: 40%;
+}
+
+.left-section-7 h2{
+    font-size: 50px;
+    color: white;
+}
+.left-section-7 p{
+    font-size: 10px;
+    color: lightgrey;
+    margin-top: 20px;
+}
+
+button{
+    position: relative;
+    top:120px;
+    left: 40%;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* ////////////////// section-8 ////////////// */
+
+.section-8{
+    position: relative;
+    top: 950px;
+    height: 200px;
+    display: flex;
+}
+
+.first-section{
+    width:35%;
+}
+
+.first-section img{
+    position: relative;
+    width:90px;
+    left: 10%;
+    margin-bottom: 20px;
+}
+.first-section p{
+    position: relative;
+    left: 10%;
+    width:50%;
+    line-height:20px;
+}
+
+.middle-section{
+    display: flex;
+    width:35%;
+    
+    justify-content: space-between;
+}
+
+.footer-items{
+    list-style: none;
+    padding: 10px;
+    color: rgb(132, 128, 128);
+}
+
+.inner-elements h4{
+    position: relative;
+    left: 10px;
+}
+
+.last-section{
+    position: relative;
+    left:10%;
+}
+
+.social-img{
+    margin-top: 20px;
+    width: 30px;
+}
